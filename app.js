@@ -22,7 +22,7 @@ const port = process.env.PORT || 3000;
 
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://projectdosti:Dhairya1212@dosti.peeng.mongodb.net/?retryWrites=true&w=majority&appName=Dosti";
 
-const allowedOrigins = ['https://dosti-codey.web.app', 'http://localhost:3000', 'http://localhost:5000', 'http://127.0.0.1:5000', 'http://localhost:8000', 'http://127.0.0.1:8000'];
+const allowedOrigins = ['https://dosti-codey.web.app', 'http://localhost:3000', 'http://localhost:5000', 'http://127.0.0.1:5000', 'http://localhost:8000', 'http://127.0.0.1:8000','https://codeyai.org'];
 
 const corsOptions = {
   origin: function (origin, callback) {
